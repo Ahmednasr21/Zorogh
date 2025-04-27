@@ -1,0 +1,58 @@
+<!DOCTYPE html><html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Λογότυπα προς Πώληση</title>
+  <style>
+    body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: #003399; color: white; padding: 1rem; text-align: center; }
+    nav ul { list-style: none; display: flex; justify-content: center; margin: 0; padding: 0; }
+    nav li { margin: 0 1rem; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 1.5rem; }
+    .card { background: white; border-radius: 0.5rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1); overflow: hidden; }
+    .card img { width: 100%; display: block; }
+    .card-body { padding: 1rem; }
+    .card-title { font-size: 1.25rem; margin: 0 0 0.5rem; }
+    .card-price { color: #003399; font-weight: bold; }
+    footer { text-align: center; padding: 1rem; background: #e6e6e6; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Σχεδιασμός Λογοτύπων</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Αρχική</a></li>
+        <li><a href="#portfolio">Πορτφόλιο</a></li>
+        <li><a href="#pricing">Τιμές</a></li>
+        <li><a href="#contact">Επικοινωνία</a></li>
+      </ul>
+    </nav>
+  </header>  <section id="portfolio" class="container">
+    <h2>Πορτφόλιο</h2>
+    <div class="grid">
+      <!-- مثال على بطاقة لوجو -->
+      <div class="card">
+        <img src="logo1.jpg" alt="Λογότυπο 1">
+        <div class="card-body">
+          <h3 class="card-title">Λογότυπο Επιχείρησης Α</h3>
+          <p class="card-price">€30</p>
+        </div>
+      </div>
+      <!-- انسخ البطاقة وعدل الصورة والعنوان والسعر لكل تصميم -->
+    </div>
+  </section>  <section id="pricing" class="container">
+    <h2>Τιμολόγηση</h2>
+    <p>Βασικό πακέτο: €30 – Έτοιμο προς χρήση λογότυπο</p>
+    <p>Προσαρμοσμένο πακέτο: €50 – Με αλλαγές έως 3 φορές</p>
+  </section>  <section id="contact" class="container">
+    <h2>Επικοινωνία</h2>
+    <p>Email: <a href="mailto:example@gmail.com">example@gmail.com</a></p>
+    <p>Τηλέφωνο: +30 210 1234567</p>
+  </section>  <footer>
+    &copy; 2025 Σχεδιασμός Λογοτύπων. Όλα τα δικαιώματα διατηρούνται.
+  </footer>
+</body>
+</html>
